@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uPoCRegzq58=",
+  "success": true,
+  "projectFilePath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LINDA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.13\\microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.API\\Lab11_LindaAroni.API.csproj": {}
+  },
+  "projects": {
+    "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.API\\Lab11_LindaAroni.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.API\\Lab11_LindaAroni.API.csproj",
+        "projectName": "Lab11_LindaAroni.API",
+        "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.API\\Lab11_LindaAroni.API.csproj",
+        "packagesPath": "C:\\Users\\LINDA\\.nuget\\packages\\",
+        "outputPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LINDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj": {
+                "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj"
+              },
+              "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\Lab11_LindaAroni.Infrastructure.csproj": {
+                "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\Lab11_LindaAroni.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.20, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.20, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj",
+        "projectName": "Lab11_LindaAroni.Application",
+        "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj",
+        "packagesPath": "C:\\Users\\LINDA\\.nuget\\packages\\",
+        "outputPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LINDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj": {
+                "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.12.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj",
+        "projectName": "Lab11_LindaAroni.Domain",
+        "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj",
+        "packagesPath": "C:\\Users\\LINDA\\.nuget\\packages\\",
+        "outputPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LINDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\Lab11_LindaAroni.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\Lab11_LindaAroni.Infrastructure.csproj",
+        "projectName": "Lab11_LindaAroni.Infrastructure",
+        "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\Lab11_LindaAroni.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\LINDA\\.nuget\\packages\\",
+        "outputPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LINDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj": {
+                "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Application\\Lab11_LindaAroni.Application.csproj"
+              },
+              "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj": {
+                "projectPath": "D:\\2025-A\\EMPRES-AVANZA\\Lab11_LindaAroni\\Lab11_LindaAroni.Domain\\Lab11_LindaAroni.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.20, )"
+            },
+            "Hangfire.MySqlStorage": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

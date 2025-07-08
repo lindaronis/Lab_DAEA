@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lab11_LindaAroni.API.props" />
+</Project>
