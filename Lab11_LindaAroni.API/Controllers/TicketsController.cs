@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace Lab11_LindaAroni.API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
-//[Authorize(Roles = "Administrador,Soporte")]
+[Route("api/[controller]")] 
+[Authorize(Roles = "Administrador,Soporte")]
 public class TicketsController : ControllerBase
 {
     private readonly IMediator _mediator;
